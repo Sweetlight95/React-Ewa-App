@@ -1,6 +1,34 @@
 .laptop {
-    background-color: brown;
+    height: 60vh;
+    background-color: rgb(163, 163, 163);
+    width: 60vmin;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.casing{
+    border: 20px solid rgb(87, 86, 86);
+    border-radius: 10px;
+    height: 15vh;
+    width: 35vh;
 }
 .screen {
-    background-color: blue;
+    background-color: white;
+    height: calc(15vh - 1px);
+    width: calc(35vh - 1px);
+}
+.keyboard {
+    background-color: rgb(0, 0, 0);
+    margin-top: 2px;
+    height: 20vh;
+    width: 40vh;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-inline: 10px solid white;
+    justify-content: center;
+    align-items: center;
 }

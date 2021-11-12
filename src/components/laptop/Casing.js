@@ -1,9 +1,10 @@
 import React from 'react';
+import Screen from './Screen'
 
 const Casing = () => {
     return (
-        <div>
-            Casing
+        <div className="casing">
+                <Screen/>
         </div>
     )
 }

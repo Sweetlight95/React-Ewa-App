@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Keyboard = () => {
+const Keyboard = (props) => {
     return (
-        <div>
-            Keyboard
+        <div className = "keyboard">
+            {props.name} Keyboard
         </div>
     )
 }
