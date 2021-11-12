@@ -7,8 +7,9 @@ function App() {
 
   return (
     <div className="container">
-      <Laptop/>
-
+      <Laptop name = "Apple" color = "gold" madeIn = "China" buttonColor = "orange"/>
+      <Laptop name = "Dell" color = "grey" madeIn = "Lagos" buttonColor = "purple"/>
+    
     </div>
   )
 }
